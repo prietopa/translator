@@ -27,4 +27,5 @@ In pom file there are two profiles:
 
 ##TODO
 - Google translator is not implemented. 
+- Add proxy configuration.
 - Add other idiom to translate.
