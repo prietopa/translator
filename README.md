@@ -21,3 +21,10 @@ In pom file there are two profiles:
 - property: **mvn assembly:assembly -DdescriptorId=jar-with-dependencies -P property**
 - text: **mvn assembly:assembly -DdescriptorId=jar-with-dependencies -P text**
 
+##BUGS
+- Problems with encoding of diferent OS.
+- In long property files, you must revised. Problems with encoding.
+
+##TODO
+- Google translator is not implemented. 
+- Add other idiom to translate.
