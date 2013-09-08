@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import net.prietopalacios.josemanuel.i18n.translator.properties.PropertiesTranslate;
+import net.prietopalacios.josemanuel.i18n.translator.proxy.JavaProxy;
 
 import org.mozilla.universalchardet.UniversalDetector;
 import org.slf4j.Logger;
@@ -31,8 +32,22 @@ public abstract class AbtractPropertiesTranslate implements PropertiesTranslate 
 	protected static final String PROPERTIES_FILE_EXTENSION = DOT + PROPERTIES;
 
 	private String encoding;
+	private JavaProxy proxy;
 
 	protected abstract String getEndOfName();
+	
+	protected boolean isProxyEnabled(){
+		if(proxy == null) return false;
+		return true;
+	}
+
+	protected void setProxy(JavaProxy proxy){
+		this.proxy = proxy;
+	}
+	
+	protected JavaProxy getProxy(){
+		return proxy;
+	}
 
 	private String getEncoding(){
 		return this.encoding;

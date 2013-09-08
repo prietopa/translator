@@ -8,6 +8,7 @@ import java.util.List;
 import net.prietopalacios.josemanuel.i18n.translator.http.HttpTranslator;
 import net.prietopalacios.josemanuel.i18n.translator.http.spi.GoogleHttpTraductor;
 import net.prietopalacios.josemanuel.i18n.translator.http.spi.XuntaHttpTraductor;
+import net.prietopalacios.josemanuel.i18n.translator.proxy.JavaProxy;
 
 import org.apache.http.client.ClientProtocolException;
 import org.slf4j.Logger;
@@ -64,14 +65,23 @@ public class GalicianTranslator extends AbtractPropertiesTranslate {
 			}
 		}
 	}
+	
+	public void translate(String fileIn, JavaProxy proxy) {
+		setProxy(proxy);
+		translate(fileIn);
+	}
 
-	public String spanishToGalician(List<String> list) throws IOException {
+	private String spanishToGalician(List<String> list) throws IOException {
 		String textoTraducido = null;
 		for(String txt: list){
 			log.debug("Texto a traducir:\n {}", txt);
 			String traducido = null;
 			try{
-				traducido = translator.translate(txt);
+				if(isProxyEnabled()){
+					traducido = translator.translate(txt, getProxy());
+				}else{
+					traducido = translator.translate(txt);
+				}
 			}catch(UnknownHostException e){
 				setTranslator(new GoogleHttpTraductor());
 				traducido = translator.translate(txt);
@@ -95,9 +105,36 @@ public class GalicianTranslator extends AbtractPropertiesTranslate {
 		}
 		if(args[0] == null) return;
 		
-//		String file = "/Users/jmprieto/dev/wkf/propertiesTranslator/src/test/resources/Language.properties";
 		GalicianTranslator galician = new GalicianTranslator();
-		galician.translate(args[0]);
+		if(args.length > 2){
+//		String file = "/Users/jmprieto/dev/wkf/propertiesTranslator/src/test/resources/Language.properties";
+			galician.translate(args[0]);
+		}
+		
+		if(args.length > 2){
+			JavaProxy proxy = null;
+			try{
+				proxy = new JavaProxy();
+				proxy.setHost(args[1]);
+				proxy.setPort(new Integer(args[2]));
+				proxy.setUser(args[3]);
+				proxy.setPass(args[4]);
+			}catch (Exception e){
+				System.out.println("Ha introducido de manera incorrecta los datos del proxy. args:\n" +
+						"1) Ruta absoluta al fichero properties.\n" +
+						"2) proxy host.\n" +
+						"3) proxy port.\n" +
+						"4) proxy username.\n" +
+						"5) proxy password.");
+				return;
+			}
+
+			try {
+				galician.translate(args[0], proxy);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
 	}
 
 }
