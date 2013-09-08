@@ -1,0 +1,977 @@
+2013-09-08 23:51:41,164 INFO [main] n.p.j.i.t.h.s.AbstractHttpTranslator [AbstractHttpTranslator.java:61] URL: http://www.xunta.es/tradutor/text.do
+2013-09-08 23:51:42,396 DEBUG [main] o.a.h.i.c.BasicClientConnectionManager [BasicClientConnectionManager.java:159] Get connection for route {}->http://www.xunta.es
+2013-09-08 23:51:42,949 DEBUG [main] o.a.h.i.c.DefaultClientConnectionOperator [DefaultClientConnectionOperator.java:177] Connecting to www.xunta.es:80
+2013-09-08 23:51:43,086 DEBUG [main] o.a.h.c.p.RequestAddCookies [RequestAddCookies.java:132] CookieSpec selected: best-match
+2013-09-08 23:51:43,101 DEBUG [main] o.a.h.c.p.RequestAuthCache [RequestAuthCache.java:78] Auth cache not set in the context
+2013-09-08 23:51:43,101 DEBUG [main] o.a.h.c.p.RequestTargetAuthentication [RequestTargetAuthentication.java:78] Target auth state: UNCHALLENGED
+2013-09-08 23:51:43,102 DEBUG [main] o.a.h.c.p.RequestProxyAuthentication [RequestProxyAuthentication.java:87] Proxy auth state: UNCHALLENGED
+2013-09-08 23:51:43,102 DEBUG [main] o.a.h.i.c.DefaultHttpClient [DefaultRequestDirector.java:713] Attempt 1 to execute request
+2013-09-08 23:51:43,103 DEBUG [main] o.a.h.i.c.DefaultClientConnection [DefaultClientConnection.java:269] Sending request: POST /tradutor/text.do HTTP/1.1
+2013-09-08 23:51:43,104 DEBUG [main] org.apache.http.wire [Wire.java:63] >> "POST /tradutor/text.do HTTP/1.1[\r][\n]"
+2013-09-08 23:51:43,105 DEBUG [main] org.apache.http.wire [Wire.java:63] >> "Content-Length: 298[\r][\n]"
+2013-09-08 23:51:43,105 DEBUG [main] org.apache.http.wire [Wire.java:63] >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2013-09-08 23:51:43,105 DEBUG [main] org.apache.http.wire [Wire.java:63] >> "Host: www.xunta.es[\r][\n]"
+2013-09-08 23:51:43,105 DEBUG [main] org.apache.http.wire [Wire.java:63] >> "Connection: Keep-Alive[\r][\n]"
+2013-09-08 23:51:43,106 DEBUG [main] org.apache.http.wire [Wire.java:63] >> "User-Agent: Apache-HttpClient/4.2.5 (java 1.5)[\r][\n]"
+2013-09-08 23:51:43,106 DEBUG [main] org.apache.http.wire [Wire.java:63] >> "[\r][\n]"
+2013-09-08 23:51:43,106 DEBUG [main] org.apache.http.headers [DefaultClientConnection.java:273] >> POST /tradutor/text.do HTTP/1.1
+2013-09-08 23:51:43,106 DEBUG [main] org.apache.http.headers [DefaultClientConnection.java:276] >> Content-Length: 298
+2013-09-08 23:51:43,106 DEBUG [main] org.apache.http.headers [DefaultClientConnection.java:276] >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2013-09-08 23:51:43,106 DEBUG [main] org.apache.http.headers [DefaultClientConnection.java:276] >> Host: www.xunta.es
+2013-09-08 23:51:43,107 DEBUG [main] org.apache.http.headers [DefaultClientConnection.java:276] >> Connection: Keep-Alive
+2013-09-08 23:51:43,107 DEBUG [main] org.apache.http.headers [DefaultClientConnection.java:276] >> User-Agent: Apache-HttpClient/4.2.5 (java 1.5)
+2013-09-08 23:51:43,107 DEBUG [main] org.apache.http.wire [Wire.java:77] >> "DTS_PIVOT_LANGUAGE=0&DTS_CREATE_GLOSSARY=0&DTS_CREATE_CODING_LIST=0&DTS_MARK_UNKNOWNS=1&DTS_MARK_CONSTANTS=0&DTS_MARK_COMPOUNDS=0&DTS_MARK_MEMORY=0&translationDirection=SPANISH-GALICIAN&firsDialect=&secondDialect=&subjectArea=%28GV%29&showAlternatives=off&text=es+mucho+mas+sencillo&submit=Traducir"
+2013-09-08 23:51:43,506 DEBUG [main] org.apache.http.wire [Wire.java:63] << "HTTP/1.1 200 OK[\r][\n]"
+2013-09-08 23:51:43,535 DEBUG [main] org.apache.http.wire [Wire.java:63] << "Date: Sun, 08 Sep 2013 21:51:37 GMT[\r][\n]"
+2013-09-08 23:51:43,536 DEBUG [main] org.apache.http.wire [Wire.java:63] << "Server: Apache-Coyote/1.1[\r][\n]"
+2013-09-08 23:51:43,536 DEBUG [main] org.apache.http.wire [Wire.java:63] << "Expires: 0[\r][\n]"
+2013-09-08 23:51:43,536 DEBUG [main] org.apache.http.wire [Wire.java:63] << "Cache-Control: no-cache, post-check=0, pre-check=0[\r][\n]"
+2013-09-08 23:51:43,537 DEBUG [main] org.apache.http.wire [Wire.java:63] << "Pragma: no-cache[\r][\n]"
+2013-09-08 23:51:43,537 DEBUG [main] org.apache.http.wire [Wire.java:63] << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2013-09-08 23:51:43,537 DEBUG [main] org.apache.http.wire [Wire.java:63] << "Set-Cookie: JSESSIONID=EF0DCC72A6C666ABAC8504917547B7B2; Path=/tradutor[\r][\n]"
+2013-09-08 23:51:43,537 DEBUG [main] org.apache.http.wire [Wire.java:63] << "Vary: Accept-Encoding[\r][\n]"
+2013-09-08 23:51:43,538 DEBUG [main] org.apache.http.wire [Wire.java:63] << "Keep-Alive: timeout=15, max=100[\r][\n]"
+2013-09-08 23:51:43,538 DEBUG [main] org.apache.http.wire [Wire.java:63] << "Connection: Keep-Alive[\r][\n]"
+2013-09-08 23:51:43,538 DEBUG [main] org.apache.http.wire [Wire.java:63] << "Transfer-Encoding: chunked[\r][\n]"
+2013-09-08 23:51:43,538 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,539 DEBUG [main] o.a.h.i.c.DefaultClientConnection [DefaultClientConnection.java:254] Receiving response: HTTP/1.1 200 OK
+2013-09-08 23:51:43,540 DEBUG [main] org.apache.http.headers [DefaultClientConnection.java:257] << HTTP/1.1 200 OK
+2013-09-08 23:51:43,540 DEBUG [main] org.apache.http.headers [DefaultClientConnection.java:260] << Date: Sun, 08 Sep 2013 21:51:37 GMT
+2013-09-08 23:51:43,540 DEBUG [main] org.apache.http.headers [DefaultClientConnection.java:260] << Server: Apache-Coyote/1.1
+2013-09-08 23:51:43,540 DEBUG [main] org.apache.http.headers [DefaultClientConnection.java:260] << Expires: 0
+2013-09-08 23:51:43,540 DEBUG [main] org.apache.http.headers [DefaultClientConnection.java:260] << Cache-Control: no-cache, post-check=0, pre-check=0
+2013-09-08 23:51:43,540 DEBUG [main] org.apache.http.headers [DefaultClientConnection.java:260] << Pragma: no-cache
+2013-09-08 23:51:43,541 DEBUG [main] org.apache.http.headers [DefaultClientConnection.java:260] << Content-Type: text/html;charset=utf-8
+2013-09-08 23:51:43,541 DEBUG [main] org.apache.http.headers [DefaultClientConnection.java:260] << Set-Cookie: JSESSIONID=EF0DCC72A6C666ABAC8504917547B7B2; Path=/tradutor
+2013-09-08 23:51:43,541 DEBUG [main] org.apache.http.headers [DefaultClientConnection.java:260] << Vary: Accept-Encoding
+2013-09-08 23:51:43,541 DEBUG [main] org.apache.http.headers [DefaultClientConnection.java:260] << Keep-Alive: timeout=15, max=100
+2013-09-08 23:51:43,541 DEBUG [main] org.apache.http.headers [DefaultClientConnection.java:260] << Connection: Keep-Alive
+2013-09-08 23:51:43,541 DEBUG [main] org.apache.http.headers [DefaultClientConnection.java:260] << Transfer-Encoding: chunked
+2013-09-08 23:51:43,558 DEBUG [main] o.a.h.c.p.ResponseProcessCookies [ResponseProcessCookies.java:122] Cookie accepted: "[version: 0][name: JSESSIONID][value: EF0DCC72A6C666ABAC8504917547B7B2][domain: www.xunta.es][path: /tradutor][expiry: null]". 
+2013-09-08 23:51:43,560 DEBUG [main] o.a.h.i.c.DefaultHttpClient [DefaultRequestDirector.java:543] Connection can be kept alive for 15000 MILLISECONDS
+2013-09-08 23:51:43,562 INFO [main] n.p.j.i.t.h.s.AbstractHttpTranslator [AbstractHttpTranslator.java:78] Response Code: 200
+2013-09-08 23:51:43,563 DEBUG [main] org.apache.http.wire [Wire.java:63] << "5ac[\r][\n]"
+2013-09-08 23:51:43,564 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0xef][0xbb][0xbf][\r][\n]"
+2013-09-08 23:51:43,564 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,564 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,564 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,564 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,564 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,565 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<!-- defines "title" and "action" from the tile-definition -->[\r][\n]"
+2013-09-08 23:51:43,565 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,565 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,565 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,565 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,565 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,565 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,566 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">[\r][\n]"
+2013-09-08 23:51:43,566 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<html xmlns="http://www.w3.org/1999/xhtml" lang="gl" xml:lang="gl">[\r][\n]"
+2013-09-08 23:51:43,566 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<head>[\r][\n]"
+2013-09-08 23:51:43,566 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<title>Tradutor autom[0xc3][0xa1]tico: Traducir texto</title>[\r][\n]"
+2013-09-08 23:51:43,566 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,566 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<!-- Patch para solucionar el problema  del acceso v[0xc3][0xad]a proxy de la XUNTA de Galicia  -->[\r][\n]"
+2013-09-08 23:51:43,566 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<!-- Hardcoded base URL for external access -->[\r][\n]"
+2013-09-08 23:51:43,567 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,567 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,567 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,567 DEBUG [main] org.apache.http.wire [Wire.java:63] << "   <base href='http://www.xunta.es/tradutor/'>[\r][\n]"
+2013-09-08 23:51:43,567 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,567 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,567 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,567 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,568 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<!-- Fin del patch para solucionar el problema  del acceso v[0xc3][0xad]a proxy de la XUNTA de Galicia  -->[\r][\n]"
+2013-09-08 23:51:43,568 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,568 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,568 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<meta name="Description" content="Tradutor autom[0xc3][0xa0]tico da Xunta de Galicia">[\r][\n]"
+2013-09-08 23:51:43,568 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<META CONTENT="text/html; charset=UTF-8" HTTP-EQUIV="Content-Type">[\r][\n]"
+2013-09-08 23:51:43,568 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,568 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<link rel="stylesheet" type="text/css" href='/tradutor/styles/dts-style.css'></link>[\r][\n]"
+2013-09-08 23:51:43,569 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<link rel="stylesheet" type="text/css" href='/tradutor/styles/xunta.css'></link>[\r][\n]"
+2013-09-08 23:51:43,569 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<script language="javaScript" src="/tradutor/javascript/dts.js" type="text/javascript"></script>[\r][\n]"
+2013-09-08 23:51:43,569 DEBUG [main] org.apache.http.wire [Wire.java:63] << "</head>[\r][\n]"
+2013-09-08 23:51:43,569 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<body topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">[\r][\n]"
+2013-09-08 23:51:43,570 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,570 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<table width="850" border="0" cellspacing="0" cellpadding="0" height="69">[\r][\n]"
+2013-09-08 23:51:43,570 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,570 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,570 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,570 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<table width="800" border="0">[\r][\n]"
+2013-09-08 23:51:43,570 DEBUG [main] org.apache.http.wire [Wire.java:63] << "  <tr> [\r][\n]"
+2013-09-08 23:51:43,570 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <td><img src='img/px-sxpl-an.png' width="250" height="50" border="0"></td>[\r][\n]"
+2013-09-08 23:51:43,571 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <td></td>[\r][\n]"
+2013-09-08 23:51:43,571 DEBUG [main] org.apache.http.wire [Wire.java:63] << "  </tr>[\r][\n]"
+2013-09-08 23:51:43,571 DEBUG [main] org.apache.http.wire [Wire.java:63] << "  <tr> [\r][\n]"
+2013-09-08 23:51:43,571 DEBUG [main] org.apache.http.wire [Wire.java:63] << "     <td colspan="2"><img src='img/barra_azul.gif' width="100%" height="40" border="0"></td>[\r][\n]"
+2013-09-08 23:51:43,571 DEBUG [main] org.apache.http.wire [Wire.java:63] << "  </tr>[\r][\n]"
+2013-09-08 23:51:43,571 DEBUG [main] org.apache.http.wire [Wire.java:63] << "  <tr></tr>[\r][\n]"
+2013-09-08 23:51:43,571 DEBUG [main] org.apache.http.wire [Wire.java:63] << "</table>[\r][\n]"
+2013-09-08 23:51:43,572 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,572 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,572 DEBUG [main] org.apache.http.wire [Wire.java:63] << "559[\r][\n]"
+2013-09-08 23:51:43,572 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0xef][0xbb][0xbf][\r][\n]"
+2013-09-08 23:51:43,572 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,572 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,572 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,573 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,573 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,573 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,573 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,573 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,573 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<!-- Patch para solucionar el problema  del acceso v[0xc3][0xad]a proxy de la XUNTA de Galicia  -->[\r][\n]"
+2013-09-08 23:51:43,573 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,574 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<!-- Fin del patch para solucionar el problema  del acceso v[0xc3][0xad]a proxy de la XUNTA de Galicia  -->[\r][\n]"
+2013-09-08 23:51:43,574 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,574 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<table width="850" cellspacing="0" cellpadding="0" class="menu">[\r][\n]"
+2013-09-08 23:51:43,574 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<thead>[\r][\n]"
+2013-09-08 23:51:43,574 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <tr>[\r][\n]"
+2013-09-08 23:51:43,574 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,574 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <td width="25%" align="center" onmouseover="mOver(this);" onclick="mClick(this);" onmouseout="mOut(this);" class="menu">[\r][\n]"
+2013-09-08 23:51:43,575 DEBUG [main] org.apache.http.wire [Wire.java:63] << "            <a href="/tradutor/home.do;jsessionid=EF0DCC72A6C666ABAC8504917547B7B2" class="menu" title="DTS Home">Inicio</a>[\r][\n]"
+2013-09-08 23:51:43,575 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        </td>[\r][\n]"
+2013-09-08 23:51:43,575 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,575 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <td width="25%" align="center" class="selmenu">[\r][\n]"
+2013-09-08 23:51:43,575 DEBUG [main] org.apache.http.wire [Wire.java:63] << "            Texto[\r][\n]"
+2013-09-08 23:51:43,575 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        </td>[\r][\n]"
+2013-09-08 23:51:43,575 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,575 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <td width="25%" align="center" onmouseover="mOver(this);" onclick="mClick(this);" onmouseout="mOut(this);" class="menu">[\r][\n]"
+2013-09-08 23:51:43,576 DEBUG [main] org.apache.http.wire [Wire.java:63] << "            <a href="/tradutor/url.do;jsessionid=EF0DCC72A6C666ABAC8504917547B7B2" class="menu" title="Translate URL">P[0xc3][0xa1]xinas web</a>[\r][\n]"
+2013-09-08 23:51:43,576 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        </td>[\r][\n]"
+2013-09-08 23:51:43,576 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,576 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,576 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,576 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,576 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    </tr>[\r][\n]"
+2013-09-08 23:51:43,577 DEBUG [main] org.apache.http.wire [Wire.java:63] << "</thead>[\r][\n]"
+2013-09-08 23:51:43,577 DEBUG [main] org.apache.http.wire [Wire.java:63] << "</table>[\r][\n]"
+2013-09-08 23:51:43,577 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<table cellspacing="0" cellpadding="0" width="100%" class="menu">[\r][\n]"
+2013-09-08 23:51:43,577 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<tr>[\r][\n]"
+2013-09-08 23:51:43,577 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <td class="menusep"><img src="/tradutor/img/line.gif;jsessionid=EF0DCC72A6C666ABAC8504917547B7B2" height="2" border="0"></td>[\r][\n]"
+2013-09-08 23:51:43,577 DEBUG [main] org.apache.http.wire [Wire.java:63] << "</tr>[\r][\n]"
+2013-09-08 23:51:43,577 DEBUG [main] org.apache.http.wire [Wire.java:63] << "</table>[\r][\n]"
+2013-09-08 23:51:43,577 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,578 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,578 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,578 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<table cellspacing="0" cellpadding="0" width="98%" class="content" align="center">[\r][\n]"
+2013-09-08 23:51:43,578 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<tbody>[\r][\n]"
+2013-09-08 23:51:43,578 DEBUG [main] org.apache.http.wire [Wire.java:63] << "  <tr>[\r][\n]"
+2013-09-08 23:51:43,578 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <td valign="top">[\r][\n]"
+2013-09-08 23:51:43,578 DEBUG [main] org.apache.http.wire [Wire.java:77] << "      "
+2013-09-08 23:51:43,579 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,579 DEBUG [main] org.apache.http.wire [Wire.java:63] << "12[\r][\n]"
+2013-09-08 23:51:43,579 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,579 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,579 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,579 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,579 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,580 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,580 DEBUG [main] org.apache.http.wire [Wire.java:77] << "      "
+2013-09-08 23:51:43,580 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,580 DEBUG [main] org.apache.http.wire [Wire.java:63] << "251[\r][\n]"
+2013-09-08 23:51:43,580 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,580 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,580 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,581 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,581 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,581 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,581 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,581 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,582 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,582 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,582 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<table cellspacing="10" cellpadding="0" class="text">[\r][\n]"
+2013-09-08 23:51:43,582 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<tbody>[\r][\n]"
+2013-09-08 23:51:43,582 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <tr>[\r][\n]"
+2013-09-08 23:51:43,582 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <td>[\r][\n]"
+2013-09-08 23:51:43,582 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9][0x9]<div id="contenido">[\r][\n]"
+2013-09-08 23:51:43,582 DEBUG [main] org.apache.http.wire [Wire.java:63] << "            [0x9]<div class="texto">Traduci[0xc3][0xb3]n de textos de ata 2.500 caracteres (formato ASCII).</div>[\r][\n]"
+2013-09-08 23:51:43,583 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9][0x9]</div>[\r][\n]"
+2013-09-08 23:51:43,583 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        </td>[\r][\n]"
+2013-09-08 23:51:43,583 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    </tr>[\r][\n]"
+2013-09-08 23:51:43,583 DEBUG [main] org.apache.http.wire [Wire.java:63] << "</tbody>[\r][\n]"
+2013-09-08 23:51:43,583 DEBUG [main] org.apache.http.wire [Wire.java:63] << "</table>[\r][\n]"
+2013-09-08 23:51:43,583 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,583 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<form name="translateTextForm" method="POST" action="/tradutor/text.do;jsessionid=EF0DCC72A6C666ABAC8504917547B7B2">[\r][\n]"
+2013-09-08 23:51:43,584 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<table cellspacing="10" cellpadding="0" class="text">[\r][\n]"
+2013-09-08 23:51:43,584 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<tbody>[\r][\n]"
+2013-09-08 23:51:43,584 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <tr>[\r][\n]"
+2013-09-08 23:51:43,584 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <td class="label">[\r][\n]"
+2013-09-08 23:51:43,584 DEBUG [main] org.apache.http.wire [Wire.java:63] << "            Direcci[0xc3][0xb3]n de traduci[0xc3][0xb3]n:[\r][\n]"
+2013-09-08 23:51:43,584 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        </td>[\r][\n]"
+2013-09-08 23:51:43,584 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <td>[\r][\n]"
+2013-09-08 23:51:43,585 DEBUG [main] org.apache.http.wire [Wire.java:77] << "            "
+2013-09-08 23:51:43,585 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,585 DEBUG [main] org.apache.http.wire [Wire.java:63] << "786[\r][\n]"
+2013-09-08 23:51:43,585 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,585 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,585 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,585 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,586 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,586 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,586 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,586 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,586 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,586 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,586 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,586 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,587 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<input type="hidden" name="DTS_PIVOT_LANGUAGE" value="0">[\r][\n]"
+2013-09-08 23:51:43,587 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,587 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<script language="JavaScript" type="text/javascript">[\r][\n]"
+2013-09-08 23:51:43,587 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,587 DEBUG [main] org.apache.http.wire [Wire.java:63] << "function setPivot()[\r][\n]"
+2013-09-08 23:51:43,587 DEBUG [main] org.apache.http.wire [Wire.java:63] << "{[\r][\n]"
+2013-09-08 23:51:43,587 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]var td = document.forms[0].translationDirection.value;[\r][\n]"
+2013-09-08 23:51:43,587 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,588 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]if (td == "CATALAN-GALICIAN")[\r][\n]"
+2013-09-08 23:51:43,588 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]{ document.forms[0].DTS_PIVOT_LANGUAGE.value = "SPANISH"; }[\r][\n]"
+2013-09-08 23:51:43,588 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]else if (td == "FRENCH-GALICIAN")[\r][\n]"
+2013-09-08 23:51:43,588 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]{ document.forms[0].DTS_PIVOT_LANGUAGE.value = "SPANISH";}[\r][\n]"
+2013-09-08 23:51:43,588 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]else if (td == "GALICIAN-CATALAN")[\r][\n]"
+2013-09-08 23:51:43,588 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]{ document.forms[0].DTS_PIVOT_LANGUAGE.value = "SPANISH";}[\r][\n]"
+2013-09-08 23:51:43,588 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]else if (td == "GALICIAN-FRENCH")[\r][\n]"
+2013-09-08 23:51:43,589 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]{ document.forms[0].DTS_PIVOT_LANGUAGE.value = "SPANISH";}[\r][\n]"
+2013-09-08 23:51:43,589 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]else[\r][\n]"
+2013-09-08 23:51:43,589 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]{ document.forms[0].DTS_PIVOT_LANGUAGE.value = "0" }[\r][\n]"
+2013-09-08 23:51:43,589 DEBUG [main] org.apache.http.wire [Wire.java:63] << "}[\r][\n]"
+2013-09-08 23:51:43,589 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,589 DEBUG [main] org.apache.http.wire [Wire.java:63] << "</script>[\r][\n]"
+2013-09-08 23:51:43,589 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,590 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,590 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,590 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<select name="translationDirection" onchange="javascript:updateDialects(this.form)" class="control"><option value="SPANISH-GALICIAN" selected="selected">Espa[0xc3][0xb1]ol-Galego</option>[\r][\n]"
+2013-09-08 23:51:43,590 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,590 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        [\r][\n]"
+2013-09-08 23:51:43,590 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,590 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <option value="GALICIAN-SPANISH">Galego-Espa[0xc3][0xb1]ol</option>[\r][\n]"
+2013-09-08 23:51:43,590 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,591 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        [\r][\n]"
+2013-09-08 23:51:43,591 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,591 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <option value="ENGLISH-GALICIAN">Ingl[0xc3][0xa9]s-Galego</option>[\r][\n]"
+2013-09-08 23:51:43,591 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,591 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        [\r][\n]"
+2013-09-08 23:51:43,591 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,591 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <option value="GALICIAN-ENGLISH">Galego-Ingl[0xc3][0xa9]s</option>[\r][\n]"
+2013-09-08 23:51:43,591 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,592 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        [\r][\n]"
+2013-09-08 23:51:43,592 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,592 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <option value="CATALAN-GALICIAN">Catal[0xc3][0xa1]n-Galego (prototipo)</option>[\r][\n]"
+2013-09-08 23:51:43,592 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,592 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        [\r][\n]"
+2013-09-08 23:51:43,592 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,592 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <option value="GALICIAN-CATALAN">Galego-Catal[0xc3][0xa1]n (prototipo)</option>[\r][\n]"
+2013-09-08 23:51:43,592 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,593 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        [\r][\n]"
+2013-09-08 23:51:43,593 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,593 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <option value="FRENCH-GALICIAN">Franc[0xc3][0xa9]s-Galego (prototipo)</option>[\r][\n]"
+2013-09-08 23:51:43,593 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,593 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        [\r][\n]"
+2013-09-08 23:51:43,593 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,593 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <option value="GALICIAN-FRENCH">Galego-Franc[0xc3][0xa9]s (prototipo)</option></select>[\r][\n]"
+2013-09-08 23:51:43,593 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,594 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,594 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        </td>[\r][\n]"
+2013-09-08 23:51:43,594 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    </tr>[\r][\n]"
+2013-09-08 23:51:43,594 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <tr>[\r][\n]"
+2013-09-08 23:51:43,594 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]<td>[\r][\n]"
+2013-09-08 23:51:43,594 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        </td>[\r][\n]"
+2013-09-08 23:51:43,594 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]<td>[\r][\n]"
+2013-09-08 23:51:43,594 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9]<div class="textopeque" align="left">O uso dos prototipos facil[0xc3][0xad]talle a traduci[0xc3][0xb3]n de textos/documentos/p[0xc3][0xa1]xinas web.<br/> C[0xc3][0xb3]mpre unha revisi[0xc3][0xb3]n minuciosa dos textos traducidos polos prototipos.</div>[\r][\n]"
+2013-09-08 23:51:43,595 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]</td>[0x9][\r][\n]"
+2013-09-08 23:51:43,595 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    </tr>[\r][\n]"
+2013-09-08 23:51:43,595 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <tr>[\r][\n]"
+2013-09-08 23:51:43,595 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <td class="label">[\r][\n]"
+2013-09-08 23:51:43,595 DEBUG [main] org.apache.http.wire [Wire.java:63] << "            [0xc3][0x81]rea tem[0xc3][0xa1]tica:[\r][\n]"
+2013-09-08 23:51:43,595 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        </td>[\r][\n]"
+2013-09-08 23:51:43,595 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <td>[\r][\n]"
+2013-09-08 23:51:43,595 DEBUG [main] org.apache.http.wire [Wire.java:77] << "            "
+2013-09-08 23:51:43,596 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,596 DEBUG [main] org.apache.http.wire [Wire.java:63] << "1e0[\r][\n]"
+2013-09-08 23:51:43,596 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,596 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,596 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,596 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,596 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,597 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,597 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,597 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,597 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,597 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,597 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<select name="subjectArea" class="control"><option value="(GV)" selected="selected">Vocabulario xeral</option>[\r][\n]"
+2013-09-08 23:51:43,597 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,598 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        [\r][\n]"
+2013-09-08 23:51:43,598 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,601 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <option value="(CSV)">Vocabulario social xeral</option>[\r][\n]"
+2013-09-08 23:51:43,602 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,602 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        [\r][\n]"
+2013-09-08 23:51:43,602 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,602 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <option value="(CTV)">Vocabulario t[0xc3][0xa9]cnico xeral</option></select>[\r][\n]"
+2013-09-08 23:51:43,602 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,603 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        </td>[\r][\n]"
+2013-09-08 23:51:43,603 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    </tr>[\r][\n]"
+2013-09-08 23:51:43,603 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]<!-- uncomment to use dialect setting[\r][\n]"
+2013-09-08 23:51:43,603 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <tr>[\r][\n]"
+2013-09-08 23:51:43,603 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <td class="label">[\r][\n]"
+2013-09-08 23:51:43,603 DEBUG [main] org.apache.http.wire [Wire.java:63] << "            Dialectos:[\r][\n]"
+2013-09-08 23:51:43,603 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        </td>[\r][\n]"
+2013-09-08 23:51:43,604 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <td>[\r][\n]"
+2013-09-08 23:51:43,604 DEBUG [main] org.apache.http.wire [Wire.java:77] << "            "
+2013-09-08 23:51:43,604 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,604 DEBUG [main] org.apache.http.wire [Wire.java:63] << "d91[\r][\n]"
+2013-09-08 23:51:43,604 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,604 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,604 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,604 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,605 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,605 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,605 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,605 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,606 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,606 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<script language="javascript">[\r][\n]"
+2013-09-08 23:51:43,606 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,606 DEBUG [main] org.apache.http.wire [Wire.java:63] << "var dialects = new Array(4);[\r][\n]"
+2013-09-08 23:51:43,606 DEBUG [main] org.apache.http.wire [Wire.java:63] << "var dialectTexts = new Array(4);[\r][\n]"
+2013-09-08 23:51:43,606 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,606 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]dialects[0] = "ENGLISH_UK";[\r][\n]"
+2013-09-08 23:51:43,607 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]dialectTexts[0] = "UK";[\r][\n]"
+2013-09-08 23:51:43,607 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,607 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]dialects[1] = "ENGLISH_US";[\r][\n]"
+2013-09-08 23:51:43,607 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]dialectTexts[1] = "US";[\r][\n]"
+2013-09-08 23:51:43,607 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,607 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]dialects[2] = "CATALAN_STD";[\r][\n]"
+2013-09-08 23:51:43,607 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]dialectTexts[2] = "STD";[\r][\n]"
+2013-09-08 23:51:43,607 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,608 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]dialects[3] = "CATALAN_BAL";[\r][\n]"
+2013-09-08 23:51:43,608 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]dialectTexts[3] = "BAL";[\r][\n]"
+2013-09-08 23:51:43,608 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,608 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,608 DEBUG [main] org.apache.http.wire [Wire.java:63] << "/** Sets the possible dialects for the specified translation source language. */[\r][\n]"
+2013-09-08 23:51:43,608 DEBUG [main] org.apache.http.wire [Wire.java:63] << "function updateDialects(translateForm) {[\r][\n]"
+2013-09-08 23:51:43,608 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    // the selected translation direction[\r][\n]"
+2013-09-08 23:51:43,608 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    var transDir = translateForm.translationDirection.value;[\r][\n]"
+2013-09-08 23:51:43,609 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    // the selected source language[\r][\n]"
+2013-09-08 23:51:43,609 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    var pos = transDir.indexOf('-');[\r][\n]"
+2013-09-08 23:51:43,609 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    var sourceLang = transDir.substring(0, pos);[\r][\n]"
+2013-09-08 23:51:43,609 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    // the selected target language[\r][\n]"
+2013-09-08 23:51:43,609 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    var targetLang = transDir.substring(pos + 1);[\r][\n]"
+2013-09-08 23:51:43,609 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,609 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    // remove old dialect settings[\r][\n]"
+2013-09-08 23:51:43,610 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]translateForm.firstDialect.options.length = 0;[\r][\n]"
+2013-09-08 23:51:43,610 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]translateForm.firstDialect.options[translateForm.firstDialect.options.length] = new Option("", "", true, true);[\r][\n]"
+2013-09-08 23:51:43,610 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]translateForm.secondDialect.options.length = 0;[\r][\n]"
+2013-09-08 23:51:43,610 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]translateForm.secondDialect.options[translateForm.secondDialect.options.length] = new Option("", "", true, true);[\r][\n]"
+2013-09-08 23:51:43,610 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]for (i = 0; i < dialects.length; i++) {[\r][\n]"
+2013-09-08 23:51:43,610 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9]// a supported dialect has the syntax <language>_<dialect>, e.g. ENGLISH_UK[\r][\n]"
+2013-09-08 23:51:43,610 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9]pos = dialects[i].indexOf('_');[\r][\n]"
+2013-09-08 23:51:43,610 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9][\r][\n]"
+2013-09-08 23:51:43,611 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9]var dialLang = dialects[i].substring(0, pos); // the dialect language[\r][\n]"
+2013-09-08 23:51:43,611 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9]var dialect = dialects[i].substring(pos + 1); // the dialect[\r][\n]"
+2013-09-08 23:51:43,611 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9]if (sourceLang == dialLang) {[\r][\n]"
+2013-09-08 23:51:43,611 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9][0x9]translateForm.firstDialect.options[translateForm.firstDialect.options.length] = new Option(dialectTexts[i], dialect, false, false);[\r][\n]"
+2013-09-08 23:51:43,611 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9]}[\r][\n]"
+2013-09-08 23:51:43,612 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9]if (targetLang == dialLang) {[\r][\n]"
+2013-09-08 23:51:43,612 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9][0x9]translateForm.secondDialect.options[translateForm.secondDialect.options.length] = new Option(dialectTexts[i], dialect, false, false);[\r][\n]"
+2013-09-08 23:51:43,612 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9]}[\r][\n]"
+2013-09-08 23:51:43,613 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]}[\r][\n]"
+2013-09-08 23:51:43,613 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]if (translateForm.firstDialect.options.length == 1) {[\r][\n]"
+2013-09-08 23:51:43,613 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9]// no dialects[\r][\n]"
+2013-09-08 23:51:43,613 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9]translateForm.firstDialect.disabled = true;[\r][\n]"
+2013-09-08 23:51:43,613 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]} else {[\r][\n]"
+2013-09-08 23:51:43,614 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9]translateForm.firstDialect.disabled = false;[\r][\n]"
+2013-09-08 23:51:43,614 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]}[\r][\n]"
+2013-09-08 23:51:43,614 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]if (translateForm.secondDialect.options.length == 1) {[\r][\n]"
+2013-09-08 23:51:43,614 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9]// no dialects[\r][\n]"
+2013-09-08 23:51:43,614 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9]translateForm.secondDialect.disabled = true;[\r][\n]"
+2013-09-08 23:51:43,614 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]} else {[\r][\n]"
+2013-09-08 23:51:43,614 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9]translateForm.secondDialect.disabled = false;[\r][\n]"
+2013-09-08 23:51:43,614 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9]}[\r][\n]"
+2013-09-08 23:51:43,615 DEBUG [main] org.apache.http.wire [Wire.java:63] << "}[\r][\n]"
+2013-09-08 23:51:43,615 DEBUG [main] org.apache.http.wire [Wire.java:63] << "</script>[\r][\n]"
+2013-09-08 23:51:43,615 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,615 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<select name="firstDialect" class="control"><option value=""></option>[\r][\n]"
+2013-09-08 23:51:43,615 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,615 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        [\r][\n]"
+2013-09-08 23:51:43,615 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,615 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <option value="ENGLISH_UK">UK</option>[\r][\n]"
+2013-09-08 23:51:43,616 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,616 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        [\r][\n]"
+2013-09-08 23:51:43,616 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,616 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <option value="ENGLISH_US">US</option>[\r][\n]"
+2013-09-08 23:51:43,616 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,616 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        [\r][\n]"
+2013-09-08 23:51:43,616 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,617 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <option value="CATALAN_STD">STD</option>[\r][\n]"
+2013-09-08 23:51:43,617 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,617 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        [\r][\n]"
+2013-09-08 23:51:43,617 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,617 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <option value="CATALAN_BAL">BAL</option></select>[\r][\n]"
+2013-09-08 23:51:43,617 DEBUG [main] org.apache.http.wire [Wire.java:63] << "/[\r][\n]"
+2013-09-08 23:51:43,617 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<select name="secondDialect" class="control"><option value="" selected="selected"></option>[\r][\n]"
+2013-09-08 23:51:43,617 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,618 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        [\r][\n]"
+2013-09-08 23:51:43,619 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,619 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <option value="ENGLISH_UK">UK</option>[\r][\n]"
+2013-09-08 23:51:43,619 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,619 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        [\r][\n]"
+2013-09-08 23:51:43,619 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,619 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <option value="ENGLISH_US">US</option>[\r][\n]"
+2013-09-08 23:51:43,620 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,620 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        [\r][\n]"
+2013-09-08 23:51:43,620 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,620 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <option value="CATALAN_STD">STD</option>[\r][\n]"
+2013-09-08 23:51:43,620 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    [\r][\n]"
+2013-09-08 23:51:43,620 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        [\r][\n]"
+2013-09-08 23:51:43,620 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,620 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <option value="CATALAN_BAL">BAL</option></select>[\r][\n]"
+2013-09-08 23:51:43,621 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,621 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        </td>[\r][\n]"
+2013-09-08 23:51:43,621 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    </tr> -->[\r][\n]"
+2013-09-08 23:51:43,621 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <tr>[\r][\n]"
+2013-09-08 23:51:43,621 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <td class="label">[\r][\n]"
+2013-09-08 23:51:43,621 DEBUG [main] org.apache.http.wire [Wire.java:63] << "            Mostrar alternativas:[\r][\n]"
+2013-09-08 23:51:43,621 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        </td>[\r][\n]"
+2013-09-08 23:51:43,622 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <td>[\r][\n]"
+2013-09-08 23:51:43,622 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[0x9][0x9][0x9]<input type="checkbox" name="showAlternatives" value="on" class="control">[\r][\n]"
+2013-09-08 23:51:43,622 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        </td>[\r][\n]"
+2013-09-08 23:51:43,622 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    </tr>[\r][\n]"
+2013-09-08 23:51:43,622 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <tr>[\r][\n]"
+2013-09-08 23:51:43,622 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <td colspan="2" class="label">[\r][\n]"
+2013-09-08 23:51:43,622 DEBUG [main] org.apache.http.wire [Wire.java:63] << "            Texto:[\r][\n]"
+2013-09-08 23:51:43,622 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        </td>[\r][\n]"
+2013-09-08 23:51:43,622 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    </tr>[\r][\n]"
+2013-09-08 23:51:43,623 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <tr>[\r][\n]"
+2013-09-08 23:51:43,623 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <td colspan="2">[\r][\n]"
+2013-09-08 23:51:43,623 DEBUG [main] org.apache.http.wire [Wire.java:63] << "            <textarea name="text" cols="50" rows="5" class="control">es mucho mas sencillo</textarea>[\r][\n]"
+2013-09-08 23:51:43,623 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        </td>[\r][\n]"
+2013-09-08 23:51:43,623 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    </tr>[\r][\n]"
+2013-09-08 23:51:43,623 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <tr>[\r][\n]"
+2013-09-08 23:51:43,623 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <td colspan="2">[\r][\n]"
+2013-09-08 23:51:43,623 DEBUG [main] org.apache.http.wire [Wire.java:77] << "            "
+2013-09-08 23:51:43,624 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,624 DEBUG [main] org.apache.http.wire [Wire.java:63] << "559[\r][\n]"
+2013-09-08 23:51:43,624 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,624 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,624 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,624 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,624 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,625 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,625 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,625 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,625 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,625 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,625 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,625 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,625 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,625 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,626 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,626 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <INPUT TYPE="hidden" NAME="DTS_CREATE_GLOSSARY" VALUE="0">[\r][\n]"
+2013-09-08 23:51:43,626 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <INPUT TYPE="hidden" NAME="DTS_CREATE_CODING_LIST" VALUE="0">[\r][\n]"
+2013-09-08 23:51:43,626 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <INPUT TYPE="hidden" NAME="DTS_MARK_UNKNOWNS" VALUE="1">[\r][\n]"
+2013-09-08 23:51:43,626 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <INPUT TYPE="hidden" NAME="DTS_MARK_CONSTANTS" VALUE="0">[\r][\n]"
+2013-09-08 23:51:43,626 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <INPUT TYPE="hidden" NAME="DTS_MARK_COMPOUNDS" VALUE="0">[\r][\n]"
+2013-09-08 23:51:43,626 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <INPUT TYPE="hidden" NAME="DTS_MARK_MEMORY" VALUE="0">[\r][\n]"
+2013-09-08 23:51:43,626 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,626 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,627 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,627 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,627 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,627 DEBUG [main] org.apache.http.wire [Wire.java:63] << "            <input type="submit" value="Traducir" onclick="setPivot()" class="control">[\r][\n]"
+2013-09-08 23:51:43,627 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        </td>[\r][\n]"
+2013-09-08 23:51:43,627 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    </tr>[\r][\n]"
+2013-09-08 23:51:43,627 DEBUG [main] org.apache.http.wire [Wire.java:63] << "</tbody>[\r][\n]"
+2013-09-08 23:51:43,627 DEBUG [main] org.apache.http.wire [Wire.java:63] << "</table>[\r][\n]"
+2013-09-08 23:51:43,628 DEBUG [main] org.apache.http.wire [Wire.java:63] << "</form>[\r][\n]"
+2013-09-08 23:51:43,628 DEBUG [main] org.apache.http.wire [Wire.java:63] << "<!-- <script language="javascript">updateDialects(document.translateTextForm);</script> -->[\r][\n]"
+2013-09-08 23:51:43,628 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,628 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,628 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <table cellspacing="10" cellpadding="0" class="text">[\r][\n]"
+2013-09-08 23:51:43,628 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    <tbody>[\r][\n]"
+2013-09-08 23:51:43,628 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <tr>[\r][\n]"
+2013-09-08 23:51:43,628 DEBUG [main] org.apache.http.wire [Wire.java:63] << "            <td class="label">[\r][\n]"
+2013-09-08 23:51:43,628 DEBUG [main] org.apache.http.wire [Wire.java:63] << "                Traduci[0xc3][0xb3]n:[\r][\n]"
+2013-09-08 23:51:43,629 DEBUG [main] org.apache.http.wire [Wire.java:63] << "            </td>[\r][\n]"
+2013-09-08 23:51:43,629 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        </tr>[\r][\n]"
+2013-09-08 23:51:43,629 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        <tr>[\r][\n]"
+2013-09-08 23:51:43,629 DEBUG [main] org.apache.http.wire [Wire.java:63] << "            <td>[\r][\n]"
+2013-09-08 23:51:43,629 DEBUG [main] org.apache.http.wire [Wire.java:63] << "                    <IFRAME SCROLLING="auto" NAME="RESULT" width="474" height="115">[\r][\n]"
+2013-09-08 23:51:43,629 DEBUG [main] org.apache.http.wire [Wire.java:63] << "                        [0xc3][0xa9] moito mais sinxelo[\r][\n]"
+2013-09-08 23:51:43,629 DEBUG [main] org.apache.http.wire [Wire.java:63] << "                    </IFRAME>[\r][\n]"
+2013-09-08 23:51:43,630 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,630 DEBUG [main] org.apache.http.wire [Wire.java:63] << "                    [\r][\n]"
+2013-09-08 23:51:43,630 DEBUG [main] org.apache.http.wire [Wire.java:63] << "                    [\r][\n]"
+2013-09-08 23:51:43,630 DEBUG [main] org.apache.http.wire [Wire.java:63] << "                    <script language="javascript">[\r][\n]"
+2013-09-08 23:51:43,630 DEBUG [main] org.apache.http.wire [Wire.java:63] << "                        writeTranslation("[0xc3][0xa9] moito mais sinxelo");[\r][\n]"
+2013-09-08 23:51:43,630 DEBUG [main] org.apache.http.wire [Wire.java:63] << "                    </script>[\r][\n]"
+2013-09-08 23:51:43,630 DEBUG [main] org.apache.http.wire [Wire.java:63] << "                </td>[\r][\n]"
+2013-09-08 23:51:43,631 DEBUG [main] org.apache.http.wire [Wire.java:63] << "        </tr>[\r][\n]"
+2013-09-08 23:51:43,631 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    </tbody>[\r][\n]"
+2013-09-08 23:51:43,631 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    </table>[\r][\n]"
+2013-09-08 23:51:43,631 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,631 DEBUG [main] org.apache.http.wire [Wire.java:63] << "</html>[\r][\n]"
+2013-09-08 23:51:43,631 DEBUG [main] org.apache.http.wire [Wire.java:63] << "    </td>[\r][\n]"
+2013-09-08 23:51:43,631 DEBUG [main] org.apache.http.wire [Wire.java:63] << "  </tr>[\r][\n]"
+2013-09-08 23:51:43,631 DEBUG [main] org.apache.http.wire [Wire.java:63] << "</tbody>[\r][\n]"
+2013-09-08 23:51:43,631 DEBUG [main] org.apache.http.wire [Wire.java:63] << "</table>[\r][\n]"
+2013-09-08 23:51:43,632 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,632 DEBUG [main] org.apache.http.wire [Wire.java:63] << "</body>[\r][\n]"
+2013-09-08 23:51:43,632 DEBUG [main] org.apache.http.wire [Wire.java:77] << "</html>"
+2013-09-08 23:51:43,632 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,632 DEBUG [main] org.apache.http.wire [Wire.java:63] << "0[\r][\n]"
+2013-09-08 23:51:43,632 DEBUG [main] org.apache.http.wire [Wire.java:63] << "[\r][\n]"
+2013-09-08 23:51:43,633 DEBUG [main] o.a.h.i.c.BasicClientConnectionManager [BasicClientConnectionManager.java:201] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7ab7b3f9
+2013-09-08 23:51:43,633 DEBUG [main] o.a.h.i.c.BasicClientConnectionManager [BasicClientConnectionManager.java:228] Connection can be kept alive for 15000 MILLISECONDS
+2013-09-08 23:51:43,633 DEBUG [main] n.p.j.i.t.h.s.AbstractHttpTranslator [AbstractHttpTranslator.java:82] ﻿
+
+
+
+
+
+<!-- defines "title" and "action" from the tile-definition -->
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="gl" xml:lang="gl">
+<head>
+<title>Tradutor automático: Traducir texto</title>
+
+<!-- Patch para solucionar el problema  del acceso vía proxy de la XUNTA de Galicia  -->
+<!-- Hardcoded base URL for external access -->
+
+
+
+   <base href='http://www.xunta.es/tradutor/'>
+
+
+
+
+<!-- Fin del patch para solucionar el problema  del acceso vía proxy de la XUNTA de Galicia  -->
+
+
+<meta name="Description" content="Tradutor automàtico da Xunta de Galicia">
+<META CONTENT="text/html; charset=UTF-8" HTTP-EQUIV="Content-Type">
+
+<link rel="stylesheet" type="text/css" href='/tradutor/styles/dts-style.css'></link>
+<link rel="stylesheet" type="text/css" href='/tradutor/styles/xunta.css'></link>
+<script language="javaScript" src="/tradutor/javascript/dts.js" type="text/javascript"></script>
+</head>
+<body topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+
+<table width="850" border="0" cellspacing="0" cellpadding="0" height="69">
+
+
+
+<table width="800" border="0">
+  <tr> 
+    <td><img src='img/px-sxpl-an.png' width="250" height="50" border="0"></td>
+    <td></td>
+  </tr>
+  <tr> 
+     <td colspan="2"><img src='img/barra_azul.gif' width="100%" height="40" border="0"></td>
+  </tr>
+  <tr></tr>
+</table>
+
+﻿
+
+
+
+
+
+
+
+
+<!-- Patch para solucionar el problema  del acceso vía proxy de la XUNTA de Galicia  -->
+
+<!-- Fin del patch para solucionar el problema  del acceso vía proxy de la XUNTA de Galicia  -->
+
+<table width="850" cellspacing="0" cellpadding="0" class="menu">
+<thead>
+    <tr>
+    
+        <td width="25%" align="center" onmouseover="mOver(this);" onclick="mClick(this);" onmouseout="mOut(this);" class="menu">
+            <a href="/tradutor/home.do;jsessionid=EF0DCC72A6C666ABAC8504917547B7B2" class="menu" title="DTS Home">Inicio</a>
+        </td>
+    
+        <td width="25%" align="center" class="selmenu">
+            Texto
+        </td>
+    
+        <td width="25%" align="center" onmouseover="mOver(this);" onclick="mClick(this);" onmouseout="mOut(this);" class="menu">
+            <a href="/tradutor/url.do;jsessionid=EF0DCC72A6C666ABAC8504917547B7B2" class="menu" title="Translate URL">Páxinas web</a>
+        </td>
+    
+
+    
+    
+    </tr>
+</thead>
+</table>
+<table cellspacing="0" cellpadding="0" width="100%" class="menu">
+<tr>
+    <td class="menusep"><img src="/tradutor/img/line.gif;jsessionid=EF0DCC72A6C666ABAC8504917547B7B2" height="2" border="0"></td>
+</tr>
+</table>
+
+
+
+<table cellspacing="0" cellpadding="0" width="98%" class="content" align="center">
+<tbody>
+  <tr>
+    <td valign="top">
+      
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+<table cellspacing="10" cellpadding="0" class="text">
+<tbody>
+    <tr>
+        <td>
+			<div id="contenido">
+            	<div class="texto">Tradución de textos de ata 2.500 caracteres (formato ASCII).</div>
+			</div>
+        </td>
+    </tr>
+</tbody>
+</table>
+
+<form name="translateTextForm" method="POST" action="/tradutor/text.do;jsessionid=EF0DCC72A6C666ABAC8504917547B7B2">
+<table cellspacing="10" cellpadding="0" class="text">
+<tbody>
+    <tr>
+        <td class="label">
+            Dirección de tradución:
+        </td>
+        <td>
+            
+
+
+
+
+
+
+
+
+
+
+
+<input type="hidden" name="DTS_PIVOT_LANGUAGE" value="0">
+
+<script language="JavaScript" type="text/javascript">
+
+function setPivot()
+{
+	var td = document.forms[0].translationDirection.value;
+
+	if (td == "CATALAN-GALICIAN")
+	{ document.forms[0].DTS_PIVOT_LANGUAGE.value = "SPANISH"; }
+	else if (td == "FRENCH-GALICIAN")
+	{ document.forms[0].DTS_PIVOT_LANGUAGE.value = "SPANISH";}
+	else if (td == "GALICIAN-CATALAN")
+	{ document.forms[0].DTS_PIVOT_LANGUAGE.value = "SPANISH";}
+	else if (td == "GALICIAN-FRENCH")
+	{ document.forms[0].DTS_PIVOT_LANGUAGE.value = "SPANISH";}
+	else
+	{ document.forms[0].DTS_PIVOT_LANGUAGE.value = "0" }
+}
+
+</script>
+
+
+
+<select name="translationDirection" onchange="javascript:updateDialects(this.form)" class="control"><option value="SPANISH-GALICIAN" selected="selected">Español-Galego</option>
+    
+        
+
+        <option value="GALICIAN-SPANISH">Galego-Español</option>
+    
+        
+
+        <option value="ENGLISH-GALICIAN">Inglés-Galego</option>
+    
+        
+
+        <option value="GALICIAN-ENGLISH">Galego-Inglés</option>
+    
+        
+
+        <option value="CATALAN-GALICIAN">Catalán-Galego (prototipo)</option>
+    
+        
+
+        <option value="GALICIAN-CATALAN">Galego-Catalán (prototipo)</option>
+    
+        
+
+        <option value="FRENCH-GALICIAN">Francés-Galego (prototipo)</option>
+    
+        
+
+        <option value="GALICIAN-FRENCH">Galego-Francés (prototipo)</option></select>
+
+
+        </td>
+    </tr>
+    <tr>
+	<td>
+        </td>
+	<td>
+		<div class="textopeque" align="left">O uso dos prototipos facilítalle a tradución de textos/documentos/páxinas web.<br/> Cómpre unha revisión minuciosa dos textos traducidos polos prototipos.</div>
+	</td>	
+    </tr>
+    <tr>
+        <td class="label">
+            Área temática:
+        </td>
+        <td>
+            
+
+
+
+
+
+
+
+
+
+<select name="subjectArea" class="control"><option value="(GV)" selected="selected">Vocabulario xeral</option>
+    
+        
+
+        <option value="(CSV)">Vocabulario social xeral</option>
+    
+        
+
+        <option value="(CTV)">Vocabulario técnico xeral</option></select>
+
+        </td>
+    </tr>
+	<!-- uncomment to use dialect setting
+    <tr>
+        <td class="label">
+            Dialectos:
+        </td>
+        <td>
+            
+
+
+
+
+
+
+
+
+<script language="javascript">
+
+var dialects = new Array(4);
+var dialectTexts = new Array(4);
+
+	dialects[0] = "ENGLISH_UK";
+	dialectTexts[0] = "UK";
+
+	dialects[1] = "ENGLISH_US";
+	dialectTexts[1] = "US";
+
+	dialects[2] = "CATALAN_STD";
+	dialectTexts[2] = "STD";
+
+	dialects[3] = "CATALAN_BAL";
+	dialectTexts[3] = "BAL";
+
+
+/** Sets the possible dialects for the specified translation source language. */
+function updateDialects(translateForm) {
+    // the selected translation direction
+    var transDir = translateForm.translationDirection.value;
+    // the selected source language
+    var pos = transDir.indexOf('-');
+    var sourceLang = transDir.substring(0, pos);
+    // the selected target language
+    var targetLang = transDir.substring(pos + 1);
+
+    // remove old dialect settings
+	translateForm.firstDialect.options.length = 0;
+	translateForm.firstDialect.options[translateForm.firstDialect.options.length] = new Option("", "", true, true);
+	translateForm.secondDialect.options.length = 0;
+	translateForm.secondDialect.options[translateForm.secondDialect.options.length] = new Option("", "", true, true);
+	for (i = 0; i < dialects.length; i++) {
+		// a supported dialect has the syntax <language>_<dialect>, e.g. ENGLISH_UK
+		pos = dialects[i].indexOf('_');
+		
+		var dialLang = dialects[i].substring(0, pos); // the dialect language
+		var dialect = dialects[i].substring(pos + 1); // the dialect
+		if (sourceLang == dialLang) {
+			translateForm.firstDialect.options[translateForm.firstDialect.options.length] = new Option(dialectTexts[i], dialect, false, false);
+		}
+		if (targetLang == dialLang) {
+			translateForm.secondDialect.options[translateForm.secondDialect.options.length] = new Option(dialectTexts[i], dialect, false, false);
+		}
+	}
+	if (translateForm.firstDialect.options.length == 1) {
+		// no dialects
+		translateForm.firstDialect.disabled = true;
+	} else {
+		translateForm.firstDialect.disabled = false;
+	}
+	if (translateForm.secondDialect.options.length == 1) {
+		// no dialects
+		translateForm.secondDialect.disabled = true;
+	} else {
+		translateForm.secondDialect.disabled = false;
+	}
+}
+</script>
+
+<select name="firstDialect" class="control"><option value=""></option>
+    
+        
+
+        <option value="ENGLISH_UK">UK</option>
+    
+        
+
+        <option value="ENGLISH_US">US</option>
+    
+        
+
+        <option value="CATALAN_STD">STD</option>
+    
+        
+
+        <option value="CATALAN_BAL">BAL</option></select>
+/
+<select name="secondDialect" class="control"><option value="" selected="selected"></option>
+    
+        
+
+        <option value="ENGLISH_UK">UK</option>
+    
+        
+
+        <option value="ENGLISH_US">US</option>
+    
+        
+
+        <option value="CATALAN_STD">STD</option>
+    
+        
+
+        <option value="CATALAN_BAL">BAL</option></select>
+
+        </td>
+    </tr> -->
+    <tr>
+        <td class="label">
+            Mostrar alternativas:
+        </td>
+        <td>
+			<input type="checkbox" name="showAlternatives" value="on" class="control">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" class="label">
+            Texto:
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <textarea name="text" cols="50" rows="5" class="control">es mucho mas sencillo</textarea>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <INPUT TYPE="hidden" NAME="DTS_CREATE_GLOSSARY" VALUE="0">
+    <INPUT TYPE="hidden" NAME="DTS_CREATE_CODING_LIST" VALUE="0">
+    <INPUT TYPE="hidden" NAME="DTS_MARK_UNKNOWNS" VALUE="1">
+    <INPUT TYPE="hidden" NAME="DTS_MARK_CONSTANTS" VALUE="0">
+    <INPUT TYPE="hidden" NAME="DTS_MARK_COMPOUNDS" VALUE="0">
+    <INPUT TYPE="hidden" NAME="DTS_MARK_MEMORY" VALUE="0">
+
+
+
+
+
+            <input type="submit" value="Traducir" onclick="setPivot()" class="control">
+        </td>
+    </tr>
+</tbody>
+</table>
+</form>
+<!-- <script language="javascript">updateDialects(document.translateTextForm);</script> -->
+
+
+    <table cellspacing="10" cellpadding="0" class="text">
+    <tbody>
+        <tr>
+            <td class="label">
+                Tradución:
+            </td>
+        </tr>
+        <tr>
+            <td>
+                    <IFRAME SCROLLING="auto" NAME="RESULT" width="474" height="115">
+                        é moito mais sinxelo
+                    </IFRAME>
+
+                    
+                    
+                    <script language="javascript">
+                        writeTranslation("é moito mais sinxelo");
+                    </script>
+                </td>
+        </tr>
+    </tbody>
+    </table>
+
+</html>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+</body>
+</html>
+2013-09-08 23:51:43,636 DEBUG [main] o.a.h.i.c.DefaultClientConnection [DefaultClientConnection.java:169] Connection 0.0.0.0:49185<->85.91.64.222:80 closed
+2013-09-08 23:56:25,491 INFO [main] n.p.j.i.t.h.s.AbstractHttpTranslator [AbstractHttpTranslator.java:61] URL: http://www.xunta.es/tradutor/text.do
+2013-09-08 23:56:26,135 DEBUG [main] o.a.h.i.c.BasicClientConnectionManager [BasicClientConnectionManager.java:159] Get connection for route {}->http://host:8080->http://www.xunta.es
+2013-09-08 23:56:26,176 DEBUG [main] o.a.h.i.c.DefaultClientConnection [DefaultClientConnection.java:169] Connection org.apache.http.impl.conn.DefaultClientConnection@637050f5 closed
+2013-09-08 23:56:26,177 DEBUG [main] o.a.h.i.c.DefaultClientConnection [DefaultClientConnection.java:154] Connection org.apache.http.impl.conn.DefaultClientConnection@637050f5 shut down
+2013-09-08 23:56:26,177 DEBUG [main] o.a.h.i.c.BasicClientConnectionManager [BasicClientConnectionManager.java:201] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@62d337d3
+2013-09-08 23:58:00,789 INFO [main] n.p.j.i.t.h.s.AbstractHttpTranslator [AbstractHttpTranslator.java:61] URL: http://www.xunta.es/tradutor/text.do
+2013-09-08 23:58:01,457 DEBUG [main] o.a.h.i.c.BasicClientConnectionManager [BasicClientConnectionManager.java:159] Get connection for route {}->http://host:8080->http://www.xunta.es
+2013-09-08 23:58:01,480 DEBUG [main] o.a.h.i.c.DefaultClientConnection [DefaultClientConnection.java:169] Connection org.apache.http.impl.conn.DefaultClientConnection@67de007d closed
+2013-09-08 23:58:01,480 DEBUG [main] o.a.h.i.c.DefaultClientConnection [DefaultClientConnection.java:154] Connection org.apache.http.impl.conn.DefaultClientConnection@67de007d shut down
+2013-09-08 23:58:01,481 DEBUG [main] o.a.h.i.c.BasicClientConnectionManager [BasicClientConnectionManager.java:201] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1ff243d1
+2013-09-08 23:58:26,857 INFO [main] n.p.j.i.t.h.s.AbstractHttpTranslator [AbstractHttpTranslator.java:61] URL: http://www.xunta.es/tradutor/text.do
+2013-09-08 23:58:34,523 DEBUG [main] o.a.h.i.c.BasicClientConnectionManager [BasicClientConnectionManager.java:159] Get connection for route {}->http://host:8080->http://www.xunta.es
+2013-09-08 23:58:34,564 DEBUG [main] o.a.h.i.c.DefaultClientConnection [DefaultClientConnection.java:169] Connection org.apache.http.impl.conn.DefaultClientConnection@2c6691da closed
+2013-09-08 23:58:34,564 DEBUG [main] o.a.h.i.c.DefaultClientConnection [DefaultClientConnection.java:154] Connection org.apache.http.impl.conn.DefaultClientConnection@2c6691da shut down
+2013-09-08 23:58:34,565 DEBUG [main] o.a.h.i.c.BasicClientConnectionManager [BasicClientConnectionManager.java:201] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1f195fc
+2013-09-08 23:59:29,365 INFO [main] n.p.j.i.t.h.s.AbstractHttpTranslator [AbstractHttpTranslator.java:61] URL: http://www.xunta.es/tradutor/text.do
