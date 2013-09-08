@@ -2,9 +2,9 @@
 
 ##Description
 
-A Java console text/properties file translator.
-A first implementation only **spanish to Galician**.
-NEW update: Add proxy configuration.
+<p>A Java console text/properties file translator.</p>
+<p>A first implementation only **spanish to Galician**.</p>
+<p>**NEW update (09/09/2013)**: Add proxy configuration.</p>
 
 ##Execution examples
 1. Ejecucion en modo consola, para traducir textos sencillos: 
